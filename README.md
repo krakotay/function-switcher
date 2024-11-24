@@ -18,4 +18,6 @@ def main():
     hello('print')  # Prints: hello
     length = mystring('len')  # Gets length of 'mystring'
     print(f"Length of 'mystring' is: {length}")
+
+main()
 ```

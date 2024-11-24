@@ -14,7 +14,6 @@ def switch_call(func: Callable) -> Callable:
         @switch_call
         def main():
             hello('print')  # Equivalent to: print('hello')
-            mytext('str.upper')  # Equivalent to: str.upper('mytext')
             length = mystring('len')  # Get length of 'mystring'
             print(f"Length is: {length}")
     

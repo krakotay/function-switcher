@@ -5,7 +5,7 @@ A Python decorator that allows switching function calls behavior. When you pass 
 ## Installation
 
 ```bash
-pip install function-switcher
+pip install git+https://github.com/krakotay/function-switcher.git
 ```
 
 ## Usage

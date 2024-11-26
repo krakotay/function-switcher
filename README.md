@@ -14,6 +14,7 @@ pip install git+https://github.com/krakotay/function-switcher.git
 from function_switcher import switch_call
 @switch_call
 def main():
+    helloworld('print')  # helloworld
     (hello + world)('print')  # helloworld
     
     leng = 10

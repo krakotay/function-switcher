@@ -12,12 +12,21 @@ pip install git+https://github.com/krakotay/function-switcher.git
 
 ```python
 from function_switcher import switch_call
-
 @switch_call
 def main():
-    hello('print')  # Prints: hello
-    length = mystring('len')  # Gets length of 'mystring'
-    print(f"Length of 'mystring' is: {length}")
+    (hello + world)('print')  # helloworld
+    
+    leng = 10
+    (engt)('print')  # engt
+    (l + f'{leng}' + th)('print') # l10th 
+    
+    a = " 10 "
+    num = 42
+    (hello + a + world)('print') # hello 10 world
+    (hello + f'{num}' + world)('print') # hello42world
+    
+    length = mystring('len')  
+    (mystring + ' length == ' + f'{length}')('print') #mystring length == 8
 
 main()
 ```
